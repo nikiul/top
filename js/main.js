@@ -10,7 +10,6 @@ if(ratingCard) {
         cardLearnMoreBtn.addEventListener('click', function(){
             learnMore.classList.toggle('hide');
             learnMoreImg.classList.toggle('card__btn-img--active');
-            // learnMoreText.classList.toggle('card__btn-text--active');
             learnMoreText.innerHTML = (learnMoreText.innerHTML == 'Show less') ? 'Learn more' : 'Show less' ;
         })
     }
