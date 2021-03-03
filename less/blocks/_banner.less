@@ -7,12 +7,22 @@
     padding-bottom: 99px;
     position: relative;
     margin-bottom: 39px;
+
+    &::before {
+        position: absolute;
+        content: url('../img/banner-robot.png');
+        bottom: 0;
+        right: 20%;
+        z-index: 1;
+    }
 }
 
 .banner__content {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    position: relative;
+    z-index: 2;
 }
 
 .banner__title {
