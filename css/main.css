@@ -34,6 +34,7 @@ body {
   font-size: 36px;
   line-height: 42px;
   color: #636363;
+  text-decoration: none;
 }
 .header__logo span {
   color: #49B4B4;
