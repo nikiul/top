@@ -75,13 +75,6 @@ body {
   position: relative;
   margin-bottom: 39px;
 }
-.banner::before {
-  position: absolute;
-  content: url('../img/banner-robot.png');
-  bottom: 0;
-  right: 20%;
-  z-index: 1;
-}
 .banner__content {
   display: -webkit-box;
   display: -ms-flexbox;
