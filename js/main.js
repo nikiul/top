@@ -1,21 +1,12 @@
-// $('.rating__learn-more').click(function(){
-//     $('.card__learn-more').addClass('hide')
-//     // $('body').addClass('body__lock');
-// });
+// показываем/убираем доп информацию под карточкой
+const ratingCard = document.querySelectorAll('.rating__card');
+if(ratingCard) {
+    for (let card of ratingCard) {
+        const cardLearnMoreBtn = card.querySelector('.card__btn');
+        const learnMore = card.querySelector('.card__learn-more')
 
-// $('.rating__learn-more').click(function(){
-//     $('.card__learn-more').removeClass('hide');
-//     // $('body').removeClass('body__lock');
-// });
-
-// $('.rating__learn-more').click(function() {  
-//     $(this).siblings().removeClass('hide');
-//     $(this).addClass('hide');
-// });
-
-const learnMoreToggleBtn = document.querySelector('.rating__learn-more');
-const learnMore = document.querySelector('.card__learn-more')
-
-learnMoreToggleBtn.onclick = function(){
-    learnMore.classList.toggle('hide');
-};
+        cardLearnMoreBtn.addEventListener('click', function(){
+            learnMore.classList.toggle('hide');
+        })
+    }
+}
