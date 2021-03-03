@@ -619,10 +619,16 @@ body {
   text-align: center;
 }
 .item__link {
-  padding-top: 9px;
-  padding-bottom: 9px;
-  padding-left: 15px;
-  padding-right: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 13px 20px;
   font-weight: 500;
   font-size: 17px;
   line-height: 20px;
@@ -631,6 +637,17 @@ body {
           box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   color: #FFFFFF;
   text-decoration: none;
+}
+.item__link svg {
+  margin-left: 5px;
+}
+.item__link:hover {
+  -webkit-filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+          filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.item__link:active {
+  -webkit-box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .footer__top {
   background-color: rgba(65, 75, 84, 0.5);
