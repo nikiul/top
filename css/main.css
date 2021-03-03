@@ -68,7 +68,7 @@ body {
 }
 .banner {
   background-size: cover;
-  background-position: top right;
+  background-position: right;
   background-repeat: no-repeat;
   padding-top: 99px;
   padding-bottom: 99px;
