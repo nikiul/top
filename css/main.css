@@ -68,7 +68,7 @@ body {
 }
 .banner {
   background-size: cover;
-  background-position: center;
+  background-position: top right;
   background-repeat: no-repeat;
   padding-top: 99px;
   padding-bottom: 99px;
@@ -86,11 +86,6 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-}
-@media (max-width: 890px) {
-  .banner__content {
-    padding-top: 110px;
-  }
 }
 .banner__title {
   margin: 0;
