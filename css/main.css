@@ -288,6 +288,11 @@ body {
     margin-bottom: 32px;
   }
 }
+@media (max-width: 715px) {
+  .card__title {
+    text-align: center;
+  }
+}
 .card__subtitle {
   margin: 0;
   padding: 0;
