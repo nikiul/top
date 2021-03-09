@@ -45,6 +45,12 @@
         width: 60%;
         margin-bottom: 20px;
     }
+
+    @media (max-width: 500px) {
+        padding-left: 15px;
+        padding-right: 15px;
+        width: 100%;
+    }
 }
 
 .item__top {
@@ -53,10 +59,18 @@
     justify-content: space-between;
     align-items: center;
     margin-bottom: 12px;
+
+    // @media (max-width:) {
+
+    // }
 }
 
 .item__top--big {
     margin-bottom: 41px;
+
+    @media (max-width: 1170px) {
+        margin-bottom: 12px;
+    }
 }
 
 .item__rating {
@@ -69,6 +83,11 @@
         font-size: 35px;
         line-height: 41px;
         color: #000000;
+
+        @media (max-width: 600px) {
+            font-size: 25px;
+            line-height: 30px;
+        }
     }
 }
 
@@ -110,5 +129,11 @@
 
     &:active {
         box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+
+    @media (max-width: 500px) {
+        padding: 10px 15px; 
+        font-size: 10px;
+        line-height: 14px;
     }
 }
